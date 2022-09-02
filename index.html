@@ -7,7 +7,8 @@
     <title>Prashant Mandal | Profile</title>
 	<style>
 	html, body { 
-	  height: 100%; 
+	  height: 100%;
+	  width:100%;
 	  margin: 0; 
 	  overflow: hidden;
 	  overflow: clip; 
@@ -48,6 +49,9 @@
 	#logo{
 		width: 3%;
 	}
+	#call_button{
+	 display:none;
+	}
 	@media only screen and (max-width:767px) {
 		h1{
 			font-size: 2.5em
@@ -61,6 +65,17 @@
 		#logo{
 			width: 8%;
 		}
+		#call_button{
+			display: initial;
+			font-size: 1.5em;
+			background: green;
+			border-radius: 20% 40%;
+			padding: 0% 25% 0% 25%;
+		}
+		#call_text{
+			color: white;
+		}
+		
 	}
 	</style>
 	<css-doodle>
@@ -118,6 +133,7 @@
 		   <img id="logo" src="./src/mail.jpg" alt="email logo" align="center">	  
 		   <a href="mailto:prashant7mandal@gmail.com"> prashant7mandal@gmail.com </a>
 	     </p>
+		 <div id="call_button"><a id="call_text" href="tel:+918603863588">Call</a></div>
 	</div>
   </body>
 </html>
