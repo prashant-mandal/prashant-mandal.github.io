@@ -41,21 +41,18 @@
         a:link {
                 text-decoration: none;
         }
-	img{
+	#profile_pic{
 		width:25%;
 		border-radius: 50%;
 	}
 	@media only screen and (max-width:767px) {
-		.wrapper{
-			position: absolute;
-		}
 		h1{
 			font-size: 2.5em
 		}
 		p{
 			font-size: 1.2em
 		}
-		img{
+		#profile_pic{
 		width:70%
 		}
 	}
@@ -106,14 +103,15 @@
   <body >
   <div class="wrapper">
     <h1>Hi, I am Prashant</h1>
-	<img src="./src/profile_pic.png" alt="Profile picture of Prashant">
+	<img id="profile_pic" src="./src/profile_pic.png" alt="Profile picture of Prashant">
      <br>
      <br>
      <br>
      <p>Site on progress, updating soon...</p>
-     <p>Email: 
-		<a href="mailto:prashant7mandal@gmail.com"> prashant7mandal@gmail.com </a>
-	</p>
+     <p>
+	   <img src="./src/mail.jpg" alt="email logo" width="3%" align="center">	  
+	   <a href="mailto:prashant7mandal@gmail.com"> prashant7mandal@gmail.com </a>
+     </p>
 	</div>
   </body>
 </html>
